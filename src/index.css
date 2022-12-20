@@ -33,6 +33,51 @@
     --transition: all 500ms ease;
 }
 
+
+
+/* THEME change using react */
+main.color-1 {
+    --primary-hue: 270;
+}
+
+main.color-2 {
+    --primary-hue: 110;
+}
+
+main.color-3 {
+    --primary-hue: 240;
+}
+
+main.color-4 {
+    --primary-hue: 325;
+}
+
+main.color-5 {
+    --primary-hue: 0;
+}
+
+main.color-6 {
+    --primary-hue: 55;
+}
+
+main.bg-2 {
+    --black-lightness: 96%;
+    --dark-lightness: 60%;
+    --light-lightness: 12%;
+    --white-lightness: 6%;
+    --color-white: hsl(0, 5%, var(--white-lightness));
+    --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
+    --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
+    --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
+}
+
+main {
+    color: var(--color-dark);
+    --color-primary: hsl(var(--primary-hue), 89%, 41%);
+}
+
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -62,11 +107,11 @@ section:nth-child(even) {
     background: var(--color-white);
 }
 
-section > h2 {
+section>h2 {
     text-align: center;
 }
 
-section > p {
+section>p {
     text-align: center;
     margin: 0.5rem auto 4rem;
     width: 40%;
@@ -80,7 +125,12 @@ a {
 }
 
 /* GENERAL HEADING STYLES */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     line-height: 1.1;
     color: var(--color-black);
 }
@@ -170,7 +220,7 @@ img {
     body {
         font-size: 1rem;
     }
-    
+
     .container {
         width: var(--container-width-md);
     }
@@ -179,7 +229,7 @@ img {
         padding: 8rem 0;
     }
 
-    section > p {
+    section>p {
         width: 72%;
         margin-bottom: 3rem;
     }
@@ -215,7 +265,7 @@ img {
         padding: 0.6rem 1.5rem;
     }
 
-    section > p {
+    section>p {
         width: var(--container-width-md);
     }
 }

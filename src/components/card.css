@@ -9,13 +9,18 @@
 .card:hover {
   background: transparent;
   border-color: var(--color-white);
-  transform: translateY(--transition);
+  transform: translateY(-0.5rem);
+}
+
+.card.light {
+  background: var(--color-light);
 }
 
 .card.light:hover {
   background: transparent;
   border-color: var(--color-light);
 }
+
 
 /* MEDIA QUERIES (phones) */
 @media screen and (max-width: 600px) {
