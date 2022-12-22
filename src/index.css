@@ -9,6 +9,8 @@
 }
 
 :root {
+    --hue: 0;
+    --sat: 0%;
     --primary-hue: 270;
     --black-lightness: 15%;
     --dark-lightness: 44%;
@@ -19,6 +21,8 @@
     --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
     --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
     --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
+    --title-color: hsl(var(--hue), var(--sat), 20%);
+    --title-color-dark: hsl(var(--hue), var(--sat), 0%);
 
     /* GENERAL CONTAINER VARIABLES */
     --container-width-lg: 76%;

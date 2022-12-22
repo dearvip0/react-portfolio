@@ -26,6 +26,7 @@
 
 .service h4 {
     margin-bottom: 0.7rem;
+    color: var(--color-primary);
 }
 
 /* MEDIA QUERIES (tablets) */

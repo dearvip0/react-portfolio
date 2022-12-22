@@ -1,0 +1,35 @@
+.scrollup {
+    position: fixed;
+    right: 2.2rem;
+    bottom: -20%;
+    background-color: var(--title-color);
+    opacity: 0.8;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.4rem;
+    z-index: 10;
+    transition: .4s;
+}
+
+.scrollup-icon {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.scrollup:hover {
+    background-color: var(--title-color-dark);
+}
+
+.show-scroll {
+    bottom: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+    .scrollup {
+        right: 1.5rem;
+        padding: 0.25rem 0.4rem;
+    }
+
+    .show-scroll {
+        bottom: 4rem;
+    }
+}

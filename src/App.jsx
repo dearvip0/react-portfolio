@@ -10,6 +10,7 @@ import Footer from "./sections/footer/Footer";
 import FloatingNav from "./sections/floating-nav/FloatingNav";
 import Theme from "./theme/Theme";
 import { useThemeContext } from "./context/theme-context";
+import ScrollUp from "./sections/scrollup/ScrollUp";
 
 const App = () => {
   const { themeState } = useThemeContext();
@@ -24,6 +25,7 @@ const App = () => {
       <FAQs />
       <Contact />
       <Footer />
+      <ScrollUp />
       <Theme />
       <FloatingNav />
     </main>

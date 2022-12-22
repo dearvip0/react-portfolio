@@ -29,13 +29,7 @@ const About = () => {
           <p>
             Building projects my clients love have always been my passion. Being
             in the web development industry for over 3 years and serving more
-            than clients worldwide, I'm always motivated to do more!
-          </p>
-          <p>
-            Hi, my name is <b>Victor Vinh</b>. I'm a Front End web developer. I
-            work as a front-end and full-stack developer at since 2019. I love
-            creating new features to increase user experience. I am willing to
-            cooperate with new opportunities and challenges below!
+            than clients, I'm always motivated to do more!
           </p>
           <a href={CV} download className="btn primary">
             Download CV <HiDownload />
