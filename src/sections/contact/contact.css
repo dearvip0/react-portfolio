@@ -24,7 +24,10 @@
     transform: translateY(-0.5rem);
 }
 
-@media screen and (max-width:600px) {
+
+
+/* MEDIA QUERIES (phones) */
+@media screen and (max-width: 600px) {
     .contact__container {
         gap: 1.5rem;
     }
